@@ -19,3 +19,7 @@ gsettings set org.gnome.desktop.session idle-delay 600
 
 # Fractional Scaling
 gsettings set org.gnome.mutter experimental-features "['scale-monitor-framebuffer']"
+
+# Night Light
+gsettings set org.gnome.settings-daemon.plugins.color night-light-enabled true
+gsettings set org.gnome.settings-daemon.plugins.color night-light-temperature 2400
