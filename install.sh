@@ -9,3 +9,4 @@ echo "Setup Fedora client"
 ./gnome-extensions.sh
 ./gnome-hotkeys.sh
 ./framework.sh
+./vscode.sh
