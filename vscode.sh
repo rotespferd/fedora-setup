@@ -6,3 +6,9 @@ echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com
 
 dnf check-update
 sudo dnf install -y code
+
+# install extension
+code --install-extension golang.Go
+code --install-extension GitHub.copilot
+code --install-extension zhuangtongfa.Material-theme
+code --install-extension PKief.material-icon-theme
