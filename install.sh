@@ -7,4 +7,5 @@ echo "Setup Fedora client"
 ./flatpah.sh
 ./gnome.sh
 ./gnome-extensions.sh
+./gnome-hotkeys.sh
 ./framework.sh
