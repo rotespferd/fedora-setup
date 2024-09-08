@@ -4,5 +4,6 @@ echo "Setup Fedora client"
 ./ssh.sh
 
 ./programs.sh
+./flatpah.sh
 ./gnome.sh
 ./framework.sh
