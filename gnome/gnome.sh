@@ -23,3 +23,7 @@ gsettings set org.gnome.mutter experimental-features "['scale-monitor-framebuffe
 # Night Light
 gsettings set org.gnome.settings-daemon.plugins.color night-light-enabled true
 gsettings set org.gnome.settings-daemon.plugins.color night-light-temperature 2400
+
+# run other gnome scripts
+./gnome-extensions.sh
+./gnome-hotkeys.sh
