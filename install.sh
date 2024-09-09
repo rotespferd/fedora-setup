@@ -6,6 +6,7 @@ echo "Setup Fedora client"
 ./programs/programs.sh
 ./gnome/gnome.sh
 ./framework.sh
+./backup/backup.sh
 
 # last but not least
 ./dotfiles.sh
