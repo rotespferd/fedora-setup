@@ -20,5 +20,6 @@ sudo dnf install -y nextcloud-client nextcloud-client-nautilus keepassxc
 sudo dnf install -y ffmpeg-free yt-dlp vlc
 
 # run other program scripts
-./flatpak.sh
-./vscode.sh
+./programs/flatpak.sh
+./programs/vscode.sh
+./programs/asdf.sh
