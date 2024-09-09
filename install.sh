@@ -10,3 +10,6 @@ echo "Setup Fedora client"
 ./gnome-hotkeys.sh
 ./framework.sh
 ./vscode.sh
+
+# last but not least
+./dotfiles.sh
