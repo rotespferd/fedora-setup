@@ -16,3 +16,5 @@ cd $HOME && curl -sfL https://git.io/chezmoi | sh
 
 # clone my dotfiles
 $HOME/bin/chezmoi init --apply git@codeberg.org:rotespferd/dotfiles.git
+
+touch $HOME/.local.zsh
