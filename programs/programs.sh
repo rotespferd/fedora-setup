@@ -23,3 +23,4 @@ sudo dnf install -y ffmpeg-free yt-dlp vlc
 ./programs/flatpak.sh
 ./programs/vscode.sh
 ./programs/asdf.sh
+./programs/programming-languages.sh
