@@ -16,6 +16,7 @@ read repopw
 echo "Type in path to repo:"
 read repopath
 
+# Create restic backup service
 cat >$HOME/.config/restic_excluded_files.txt <<EOF
 /home/${USER}/.cache
 /home/${USER}/.local/share/Trash
@@ -40,3 +41,21 @@ EOF
 
 sudo mv /tmp/restic_backup_nas.service /etc/systemd/user/restic_backup_nas.service
 systemctl --user daemon-reload
+
+# Create restic backup timer to run backup every 3 hours
+cat >/tmp/restic_backup_nas.timer <<EOF
+[Unit]
+Description=Restic backup timer to NAS
+
+[Timer]
+OnCalendar=00/3:30
+Persistent=true
+
+[Install]
+WantedBy=timers.target
+EOF
+
+sudo mv /tmp/restic_backup_nas.timer /etc/systemd/user/restic_backup_nas.timer
+systemctl --user daemon-reload
+
+systemctl --user enable --now restic_backup_nas.timer
