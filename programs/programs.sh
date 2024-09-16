@@ -26,3 +26,4 @@ sudo dnf install -y ffmpeg-free yt-dlp vlc
 ./programs/programming-languages.sh
 ./programs/docker.sh
 ./programs/ulauncher.sh
+./programs/tailscale.sh
