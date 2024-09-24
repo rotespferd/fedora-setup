@@ -14,7 +14,7 @@ sudo dnf copr enable -y varlad/zellij
 sudo dnf install -y zellij
 
 # Install user programs
-sudo dnf install -y nextcloud-client nextcloud-client-nautilus keepassxc libreoffice-langpack-de
+sudo dnf install -y nextcloud-client nextcloud-client-nautilus keepassxc libreoffice-langpack-de thunderbird
 
 # Install media programs
 sudo dnf install -y ffmpeg-free yt-dlp vlc
