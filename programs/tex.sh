@@ -1,7 +1,10 @@
 echo "Install LaTeX and some packages..."
 
 # Install texlive as LaTex-distro
-sudo dnf install -y texlive texlive-moderncv
+sudo dnf install -y texlive
+
+# Install additional texlive packages
+sudo dnf install -y texlive-moderncv texlive-fontawesome5 texlive-multirow texlive-arydshln lastpage
 
 # Install texstudio for easy editing
 sudo dnf install -y texstudio
