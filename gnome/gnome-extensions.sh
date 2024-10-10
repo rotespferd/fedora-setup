@@ -16,6 +16,7 @@ gext install undecorate@sun.wxg@gmail.com
 gext install tophat@fflewddur.github.io
 gext install AlphabeticalAppGrid@stuarthayhurst
 gext install appindicatorsupport@rgcjonas.gmail.com
+gext install night-theme-switcher@rmnvgr
 
 # Compile gsettings schemas in order to be able to set them
 sudo cp ~/.local/share/gnome-shell/extensions/tactile@lundal.io/schemas/org.gnome.shell.extensions.tactile.gschema.xml /usr/share/glib-2.0/schemas/
