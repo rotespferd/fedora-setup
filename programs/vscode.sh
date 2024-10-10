@@ -13,3 +13,4 @@ code --install-extension GitHub.copilot
 code --install-extension zhuangtongfa.Material-theme
 code --install-extension PKief.material-icon-theme
 code --install-extension ms-python.python
+code --install-extension onecentlin.laravel-extension-pack
