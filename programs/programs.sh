@@ -29,3 +29,4 @@ sudo dnf install -y ffmpeg-free yt-dlp vlc
 ./programs/tailscale.sh
 ./programs/ollama.sh
 ./programs/tex.sh
+./programs/neovim.sh
