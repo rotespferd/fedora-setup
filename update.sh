@@ -21,7 +21,7 @@ code --update-extensions
 # Update OhMyZSH
 echo ""
 echo "--- Updating OhMyZSH ---"
-/usr/bin/zsh -c "source /home/marian/.zshrc && omz update"
+/usr/bin/zsh -c "source /home/marian/.zshrc && omz update && exit"
 
 echo "Create post snapshot..."
 sudo snapper -c root create --description post-update-${timestamp} --type post --cleanup number --pre-number $pre_snapshot_number
