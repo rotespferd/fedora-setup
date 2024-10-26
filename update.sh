@@ -25,3 +25,6 @@ echo "--- Updating OhMyZSH ---"
 
 echo "Create post snapshot..."
 sudo snapper -c root create --description post-update-${timestamp} --type post --cleanup number --pre-number $pre_snapshot_number
+
+# send desktop notification
+notify-send -i dialog-information -t 10000 "System updated" "System has been updated successfully."
