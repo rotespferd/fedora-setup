@@ -5,6 +5,7 @@ PYTHON_VERSION=3.12.6
 NODEJS_VERSION=20.16.0
 GO_VERSION=1.23.1
 PHP_VERSION=8.3.11
+DENO_VERSION=2.0.3
 
 # Install Python via ASDF
 asdf plugin-add python
@@ -29,6 +30,11 @@ sudo dnf install -y autoconf bison bison-devel re2c libxml2 libxml2-devel openss
 
 asdf install php $PHP_VERSION
 asdf global php $PHP_VERSION
+
+# Install Deno
+asdf plugin-add deno
+asdf install deno $DENO_VERSION
+asdf global deno $DENO_VERSION
 
 asdf reshim
 
